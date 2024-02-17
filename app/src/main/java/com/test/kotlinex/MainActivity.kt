@@ -41,7 +41,10 @@ public class MainActivity : AppCompatActivity() {
             intent = Intent(this, ListViewActivity::class.java)
             startActivity(intent)
         })
-
+        binding.recyclerExample.setOnClickListener(View.OnClickListener {
+            intent = Intent(this, RecyclerExActivity::class.java)
+            startActivity(intent)
+        })
     }
 
     private fun implysitIntent() {

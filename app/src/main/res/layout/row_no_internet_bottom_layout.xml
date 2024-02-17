@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_12dp"
+    android:padding="@dimen/padding_8dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/wifi_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:padding="@dimen/padding_8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_internet_wifi" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/connection_text"
+        style="@style/TextPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/wifi_image"
+        android:padding="@dimen/padding_8dp"
+        android:text="No Connection."
+        android:textColor="@color/grey_60" />
+
+    <!--no connection. connection Restored.-->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/dismiss"
+        style="@style/TextPrimaryBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/margin_8dp"
+        android:padding="@dimen/padding_8dp"
+        android:text="Dismiss"
+        android:textSize="@dimen/text_14sp" />
+
+</RelativeLayout>

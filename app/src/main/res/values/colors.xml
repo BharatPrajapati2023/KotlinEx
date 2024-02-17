@@ -11,6 +11,10 @@
     <!-- Grey -->
     <color name="grey_200">#eeeeee</color>
     <color name="grey_400">#bdbdbd</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_90">#263238</color>
 
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
